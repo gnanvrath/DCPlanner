@@ -1,0 +1,1 @@
+import React from 'react';\nimport { createRoot } from 'react-dom/client';\nimport App from './App';\nimport './index.css';\n\nconst container = document.getElementById('root');\nconst root = createRoot(container);\nroot.render(<App />);
